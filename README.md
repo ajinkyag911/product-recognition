@@ -1,14 +1,30 @@
-# product-recognition
+Product Recognition
 Object recognition project for product recognition on store shelves.
 
 Requirements-
 
 Note: Please ensure that you have all the mentioned packages and libraries installed on your computer for Python3 before running the programs.
 
-Python3, Numpy, Matplotlib, Pillow, OpenCV, opencv-contrib-python
+Python3, Numpy, Matplotlib, Pillow, OpenCV Version 3.4.2.16, opencv-contrib-python Version 3.4.2.16
 
-pip3 install opencv-python==3.4.2.16
-pip3 install opencv-contrib-python==3.4.2.16
+Installation Commands-
+
+sudo pip3 install numpy
+
+sudo pip3 install matplotlib
+
+sudo pip3 install Pillow
+
+sudo pip3 install opencv-python==3.4.2.16
+
+sudo pip3 install opencv-contrib-python==3.4.2.16
+
+Run programs-
+Step A -
+python3 singleObject.py -models dataset_A/models/ -scenes dataset_A/scenes/
+
+Step B -
+python3 multipleObject.py -models dataSet_B/models/ -scenes dataSet_B/scenes/
 
 Links-
 

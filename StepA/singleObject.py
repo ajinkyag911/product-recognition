@@ -98,7 +98,9 @@ def main():
 
         cv2.imshow('Result ', scene_image)
 
-        plt.imsave('Result '+ str(i)+ '.jpg', scene_image)
+        RGB_img = cv2.cvtColor(scene_image, cv2.COLOR_BGR2RGB)
+
+        plt.imsave('Result '+ str(i)+ '.jpg', RGB_img)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
 
